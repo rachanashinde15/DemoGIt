@@ -1,0 +1,15 @@
+<!-- DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"-->
+
+<suite name = "Rediff email session">
+	<test name="rediff email">
+	
+	<parameter name = "url" value ="https://mail.rediff.com/cgi-bin/login.cgi"/>
+	<parameter name = "email" value ="rachanashinde04@gmail.com"/>
+	<parameter name = "password" value ="Rachana@123"/>
+	
+	
+	<classes>
+		<class name="TestNG.ParameterTestClass" />
+	</classes>
+	</test>
+</suite>
